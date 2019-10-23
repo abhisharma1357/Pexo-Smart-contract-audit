@@ -1,0 +1,47 @@
+{
+    "name": "MaesterProtocol",
+    "version": "1.0.0",
+    "description": "Maester-Protocol smart contracts",
+    "main": "truffle-config.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "build": "sol-merger './contracts/*.sol' ./build",
+      "coverage": "./node_modules/.bin/solidity-coverage"
+    },
+    "engines": {
+      "node": ">=6.0.0",
+      "npm": ">=3.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://gitlab.com/abhi_21094/maesterprotocol"
+    },
+    "author": "Abhishek Sharma <abhisharma.sharma7@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://gitlab.com/abhi_21094/maesterprotocol"
+    },
+    "pre-commit": [],
+    "devDependencies": {
+      "babel-eslint": "^8.2.2",
+      "eslint": "^4.0.0",
+      "eslint-config-netflix": "^2.0.0",
+      "istanbul": "^0.4.5",
+      "jsdoc": "^3.4.1",
+      "license-check": "^1.1.5",
+      "nodemon": "1.17.3",
+      "pre-commit": "^1.2.2",
+      "sol-merger": "0.1.2",
+      "solidity-coverage": "^0.4.15"
+    },
+    "homepage": "https://gitlab.com/abhi_21094/maesterprotocol",
+    "dependencies": {
+      "zeppelin-solidity": "1.3.0"
+    },
+    "contributors": [
+      "preetam  <abhisharma.sharma7@gmail.com>"
+    ]
+  }
+  
